@@ -1,0 +1,105 @@
+body {
+    background-color: linen;
+    font-family: "Helvetica";
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0px, 0px;
+}
+
+.wrapper {
+    margin: 0px, 0px;
+    padding: 0px, 0px;
+}
+
+.wattylogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.wattylogo:hover {
+    content: url("wattylogo2.png")
+}
+
+.topbox {
+    font-size: 25px;
+    margin: 0px, 0px;
+    padding: 0px, 0px;
+}
+
+.container {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: yellow;
+}
+
+.rightbox {
+    float: right;
+}
+
+.active {
+    background-color: #111;
+}
+
+.box {
+  display: block;
+  width: 25%;
+  margin-top: 50px;
+  margin-right: 30px;
+  float: left;
+}
+
+.box {
+  display: block;
+  width: 25%;
+  margin-top: 50px;
+  margin-right: 30px;
+  float: left;
+}
+
+.box {
+  display: block;
+  width: 25%;
+  margin-top: 50px;
+  margin-right: 30px;
+  float: left;
+}
+
+.boxlast {
+  display: block;
+  width: 25%;
+  margin-top: 50px;
+  margin-right: 30px;
+}
