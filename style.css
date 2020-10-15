@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(font/Roboto-Light.ttf);
+}
+
 body {
-    background-color: linen;
-    font-family: "Helvetica";
+  font-family: "Roboto";
+    background-color: #272727;
     margin-top: 0px;
     margin-left: 0px;
     padding: 0px, 0px;
@@ -14,6 +19,7 @@ body {
 .missionstatement {
     font-size: 35px;
     text-align: center;
+    display: block;
 }
 
 .wattylogo {
@@ -28,11 +34,11 @@ body {
 }
 
 .wattylogo:hover {
-    content: url("wattylogo2.png")
+    content: url("img/wattylogo2.png")
 }
 
 .wattyStatement{
-    background-image: url("https://image.shutterstock.com/image-vector/city-skyscraper-blue-bright-sky-600w-1578926017.jpg");
+    background-image: url(img/light-bulbs-1875268_1920.jpg);
     margin-bottom: 0px;
     padding-bottom: 20px;
 }
@@ -59,7 +65,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #272727;
 }
 
 li {
@@ -68,15 +74,15 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #ff652f;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
-  color: yellow;
+  background-color: #272727;
+  color: #ffe400;
 }
 
 .rightbox {
@@ -84,7 +90,7 @@ li a:hover {
 }
 
 .active {
-    background-color: #111;
+    color: #ffe400;
 }
 
 
