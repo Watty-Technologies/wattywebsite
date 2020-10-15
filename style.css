@@ -18,7 +18,7 @@ body {
 }
 
 body h2 {
-    text-shadow: 3px 2px #272727;
+  text-shadow: 3px 2px #272727;
 }
 
 body p {
@@ -27,8 +27,8 @@ body p {
 }
 
 .wrapper {
-    margin: 0px, 0px;
-    padding: 0px, 0px;
+  margin: 0px, 0px;
+  padding: 0px, 0px;
 }
 
 .container {
@@ -66,28 +66,28 @@ body p {
 }
 
 .missionstatement {
-    font-size: 2em;
-    text-align: center;
-    display: block;
-    color: #ffe400;
-    text-shadow: 3px 2px #272727;
-    font-family: "Roboto Regular";
-    padding: 0 10%;
-    margin: 0 0;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  color: #ffe400;
+  text-shadow: 3px 2px #272727;
+  font-family: "Roboto Regular";
+  padding: 0 10%;
+  margin: 0 0;
 }
 
 .wattylogo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    width: 25%;
-    height: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 25%;
+  height: auto;
 }
 
 .wattylogo:hover {
-    content: url("img/wattylogo2.png")
+  content: url("img/wattylogo2.png")
 }
 
 .wattyStatement{
@@ -105,8 +105,7 @@ h2 {
 }
 
 .topbox {
-    font-size: 25px;
-
+  font-size: 25px;
 }
 
 .topbox ul {
@@ -126,6 +125,10 @@ h2 {
   float: left;
 }
 
+.topbox .active {
+  color: #ffe400;
+}
+
 .topbox li a {
   display: block;
   color: #ff652f;
@@ -140,13 +143,26 @@ h2 {
   color: #ffe400;
 }
 
+
+
 .rightbox {
     float: right;
 }
 
-.active {
-    color: #ffe400;
+footer {
+  padding: 0.1%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  bottom: 0;
 }
+
+footer p {
+  font-size: 15px;
+  color: white;
+}
+
+/* Responsiv kode */
 
 /* Responsiv mission statement tekst: */
 @media screen and (min-width: 601px) {
@@ -206,17 +222,4 @@ h2 {
   .button {
     font-size: 20px;
   }
-}
-
-footer {
-  padding: 0.1%;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 0;
-  bottom: 0;
-}
-
-footer p {
-  font-size: 15px;
-  color: white;
 }
