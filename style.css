@@ -9,10 +9,6 @@
 }
 
 body {
-  background-image: url(img/light-bulbs-1875268_1920.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
   font-family: "Roboto Light";
   background-color: #272727;
   margin-top: 0px;
@@ -58,6 +54,7 @@ p {
   display: inline-block;
   font-size: 40px;
   border-radius: 4em;
+  margin: 5% 2%; 
 }
 
 .missionstatement {
@@ -86,8 +83,14 @@ p {
 }
 
 .wattyStatement{
-    margin-bottom: 0px;
-    padding-bottom: 5em;
+  background-image: url(img/light-bulbs-1875268_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: ;
+  background-size: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 5em;
+  text-align: center;
 }
 
 .topbox {
