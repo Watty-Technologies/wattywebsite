@@ -1,14 +1,33 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto Light";
   src: url(font/Roboto-Light.ttf);
 }
 
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(font/Roboto-Regular.ttf);
+}
+
 body {
-  font-family: "Roboto";
-    background-color: #272727;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding: 0px, 0px;
+  background-image: url(img/light-bulbs-1875268_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Roboto Light";
+  background-color: #272727;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0px, 0px;
+  color: #ffe400;
+}
+
+body h2 {
+    text-shadow: 3px 2px #272727;
+}
+
+p {
+  text-shadow: 1px 1px #272727;
+  font-size: 30px;
 }
 
 .wrapper {
@@ -16,10 +35,40 @@ body {
     padding: 0px, 0px;
 }
 
+.container {
+  margin: 0 5%;
+  display: block;
+}
+
+.box {
+  display: block;
+  text-align: center;
+  background-color: ;
+  padding: 2%;
+}
+
+.button {
+  background-color: #14a76c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px #272727;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 4em;
+}
+
 .missionstatement {
-    font-size: 35px;
+    font-size: 2em;
     text-align: center;
     display: block;
+    color: #ffe400;
+    text-shadow: 3px 2px #272727;
+    font-family: "Roboto Regular";
+    padding: 0 10%;
+    margin: 0 0;
 }
 
 .wattylogo {
@@ -30,7 +79,6 @@ body {
     margin-bottom: 0px;
     width: 25%;
     height: auto;
-
 }
 
 .wattylogo:hover {
@@ -38,9 +86,8 @@ body {
 }
 
 .wattyStatement{
-    background-image: url(img/light-bulbs-1875268_1920.jpg);
     margin-bottom: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 5em;
 }
 
 .topbox {
@@ -49,12 +96,9 @@ body {
     padding: 0px, 0px;
 }
 
-.container {
-  display: block;
-}
-
 h2 {
   text-align: center;
+  font-size: 50px;
 }
 
 ul {
