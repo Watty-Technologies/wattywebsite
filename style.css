@@ -53,8 +53,16 @@ body p {
   text-shadow: 2px 2px #272727;
   display: inline-block;
   font-size: 40px;
+  font-family: "Roboto Regular";
   border-radius: 4em;
   margin: 5% 2%; 
+}
+
+.button:hover {
+  background-color: #ffe400;
+  color: #ff652f;
+  text-shadow: none;
+  font-weight: bold;
 }
 
 .missionstatement {
@@ -69,7 +77,7 @@ body p {
 }
 
 .wattylogo {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -85,18 +93,10 @@ body p {
 .wattyStatement{
   background-image: url(img/light-bulbs-1875268_1920.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: ;
-  background-size: 100%;
+  background-size: 100% 100%;
   margin-bottom: 0px;
   padding-bottom: 5em;
   text-align: center;
-}
-
-.topbox {
-    font-size: 25px;
-    margin: 0px, 0px;
-    padding: 0px, 0px;
 }
 
 h2 {
@@ -104,7 +104,12 @@ h2 {
   font-size: 50px;
 }
 
-ul {
+.topbox {
+    font-size: 25px;
+
+}
+
+.topbox ul {
   position: fixed;
   top: 0;
   width: 100%;
@@ -117,20 +122,20 @@ ul {
   justify-content: space-around;
 }
 
-li {
+.topbox li {
   float: left;
-
 }
 
-li a {
+.topbox li a {
   display: block;
   color: #ff652f;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 0;
   text-decoration: none;
+  font-size: 1em;
 }
 
-li a:hover {
+.topbox li a:hover {
   background-color: #272727;
   color: #ffe400;
 }
@@ -141,6 +146,66 @@ li a:hover {
 
 .active {
     color: #ffe400;
+}
+
+/* Responsiv mission statement tekst: */
+@media screen and (min-width: 601px) {
+  .missionstatement {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .missionstatement {
+    font-size: 30px;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .missionstatement {
+    font-size: 25px;
+    padding: 0 2%;
+  }
+}
+
+/* Responsiv nav bar font: */
+@media screen and (min-width: 601px) {
+  li {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  li {
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  li {
+    font-size: 0.5em;
+  }
+}
+
+/* Responsiv DOWNLOAD APP button */
+@media screen and (min-width: 601px) {
+  .button {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .button {
+    font-size: 30px;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .button {
+    font-size: 20px;
+  }
 }
 
 footer {
