@@ -229,8 +229,8 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .contact-container {
   border-radius: 5px;
-  background-color: black;
-  padding: 20px;
+  background-color: #272727;
+  padding: 2% 20%;
 }
 
 /* Responsiv kode */
