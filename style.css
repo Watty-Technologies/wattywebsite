@@ -65,6 +65,14 @@ body p {
   font-weight: bold;
 }
 
+.box .button {
+  font-size: 30px;
+}
+
+.box p {
+  padding: 0 10%;
+}
+
 .missionstatement {
   font-size: 2em;
   text-align: center;
@@ -143,10 +151,8 @@ h2 {
   color: #ffe400;
 }
 
-
-
 .rightbox {
-    float: right;
+  float: right;
 }
 
 footer {
@@ -162,64 +168,170 @@ footer p {
   color: white;
 }
 
+.cv-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.cv-box {
+  background-color: none;
+  color: #ffe400;
+  padding: 1rem;
+  height: auto;
+}
+
+.cv-box ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+.cv-box h3 {
+  font-size: 20px;
+  text-align: left;
+  color: #ff652f;
+}
+
+.cv-box p {
+  font-size: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 12px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ff652f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #ffe400;
+  color: black;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  background-color: #272727;
+  padding: 1% 20%;
+}
+
 /* Responsiv kode */
 
-/* Responsiv mission statement tekst: */
 @media screen and (min-width: 601px) {
+
   .missionstatement {
     font-size: 40px;
   }
+
+  li {
+    font-size: 1em;
+  }
+
+  .button {
+    font-size: 40px;
+  }
+
+  .box p {
+    font-size: 30px;
+  }
+
+  .box .button {
+    font-size: 30px;
+  }
+
+  .box h2 {
+    font-size: 50px;
+  }
+
 }
 
 @media screen and (max-width: 1230px) {
+
   .missionstatement {
     font-size: 30px;
     padding: 0 5%;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .missionstatement {
-    font-size: 25px;
-    padding: 0 2%;
-  }
-}
-
-/* Responsiv nav bar font: */
-@media screen and (min-width: 601px) {
-  li {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 1230px) {
   li {
     font-size: 0.75em;
   }
-}
 
-@media screen and (max-width: 608px) {
-  li {
-    font-size: 0.5em;
-  }
-}
-
-/* Responsiv DOWNLOAD APP button */
-@media screen and (min-width: 601px) {
-  .button {
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 1230px) {
   .button {
     font-size: 30px;
     margin-top: 7%;
   }
+
+  .box p {
+    font-size: 25px;
+  }
+
+  .box .button {
+    font-size: 25px;
+  }
+
+  .box h2 {
+    font-size: 40px;
+  }
+
 }
 
 @media screen and (max-width: 608px) {
+
+  .missionstatement {
+    font-size: 25px;
+    padding: 0 2%;
+  }
+
+  li {
+    font-size: 0.5em;
+  }
+
   .button {
     font-size: 20px;
+  }
+
+  .box p {
+    font-size: 20px;
+  }
+
+  .box .button {
+    font-size: 20px;
+  }
+
+  .box h2 {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 690px) {
+
+  #map {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 890px){
+  .cv-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
