@@ -206,11 +206,11 @@ input[type=text], select, textarea {
   border-radius: 12px; 
   box-sizing: border-box; 
   margin-top: 6px; 
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  margin-bottom: 16px; 
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
   background-color: #ff652f;
   color: white;
@@ -220,13 +220,13 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
   background-color: #ffe400;
   color: black;
 }
 
-/* Add a background color and some padding around the form */
+
 .contact-container {
   border-radius: 5px;
   background-color: #272727;
