@@ -29,6 +29,12 @@ body p {
 .wrapper {
   margin: 0px, 0px;
   padding: 0px, 0px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  padding-bottom: 3rem;
 }
 
 .container {
@@ -212,6 +218,9 @@ footer {
   justify-content: space-around;
   margin-bottom: 0;
   bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 2.5rem;   
 }
 
 footer p {
@@ -335,7 +344,7 @@ input[type=submit]:hover {
   }
 
   .topbox li {
-    font-size: 0.75em;
+    font-size: 1em;
   }
 
   .button {
@@ -379,7 +388,7 @@ input[type=submit]:hover {
   }
 
   .topbox li {
-    font-size: 0.5em;
+    font-size: 0.80em;
   }
 
   .button {
@@ -417,6 +426,11 @@ input[type=submit]:hover {
   ol {
     margin: 0 2%;
   }
+
+  .topbox li {
+    font-size: 0.5em;
+  }
+
 }
 
 @media screen and (max-width: 690px) {
