@@ -39,8 +39,18 @@ body p {
 .box {
   display: block;
   text-align: center;
-  background-color: ;
   padding: 2%;
+}
+
+.img-box {
+  display: block;
+  text-align: center;
+}
+
+.img-centered-responsive {
+  position:relative;
+  max-width:75%;
+  max-height:100%;
 }
 
 .button {
@@ -69,8 +79,13 @@ body p {
   font-size: 30px;
 }
 
+.img-text {
+  font-size: 20px;
+}
+
 .box p {
   padding: 0 10%;
+  line-height: 1.5;
 }
 
 .missionstatement {
@@ -153,6 +168,42 @@ h2 {
 
 .rightbox {
   float: right;
+}
+
+ol {
+  font-size: 30px;
+  text-align: left;
+  margin: 0 10%;
+  line-height: 2;
+}
+
+.button-small {
+  font-size: 25px;
+  background-color: #ff652f;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px #272727;
+  font-family: "Roboto Regular";
+  border-radius: 4em;
+  margin: 0% 1%;
+}
+
+.button-small:hover {
+  background-color: #ffe400;
+  color: #ff652f;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+ol a {
+  color: #ff652f;
+}
+
+p a {
+  color: #ff652f;
 }
 
 footer {
@@ -241,7 +292,11 @@ input[type=submit]:hover {
     font-size: 40px;
   }
 
-  li {
+  .container {
+    margin: 0 17%;
+  }
+
+  .topbox li {
     font-size: 1em;
   }
 
@@ -270,7 +325,16 @@ input[type=submit]:hover {
     padding: 0 5%;
   }
 
-  li {
+  .container {
+    margin: 0 5%;
+  }
+
+  ol {
+    margin: 0 7%;
+    font-size: 25px;
+  }
+
+  .topbox li {
     font-size: 0.75em;
   }
 
@@ -287,6 +351,11 @@ input[type=submit]:hover {
     font-size: 25px;
   }
 
+  .button-small {
+    font-size: 20px;
+    padding: 5px 3px;
+  }
+
   .box h2 {
     font-size: 40px;
   }
@@ -300,7 +369,16 @@ input[type=submit]:hover {
     padding: 0 2%;
   }
 
-  li {
+  .container {
+    margin: 0 0;
+  }
+
+  ol {
+    margin: 5%;
+    font-size: 17px;
+  }
+
+  .topbox li {
     font-size: 0.5em;
   }
 
@@ -316,10 +394,29 @@ input[type=submit]:hover {
     font-size: 20px;
   }
 
+  .button-small {
+    font-size: 15px;
+    padding: 5px 3px;
+  }
+
+  .img-box {
+    font-size: 10px;
+  }
+
+  .img-text {
+    font-size: 13px;
+  }
+
   .box h2 {
     font-size: 30px;
   }
 
+}
+
+@media screen and (max-width: 420px) {
+  ol {
+    margin: 0 2%;
+  }
 }
 
 @media screen and (max-width: 690px) {
