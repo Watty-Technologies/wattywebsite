@@ -245,12 +245,12 @@ footer p {
 
 .cv-box ul {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
 }
 
 .cv-box h3 {
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   color: #ff652f;
 }
 
